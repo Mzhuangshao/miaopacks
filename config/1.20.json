@@ -1,0 +1,1643 @@
+{
+    "versions": ["1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.6"],
+    "split_operations": {
+        "assets/minecraft/textures/gui/recipe_book.png": [
+            {
+                "source": [152, 78, 176, 102],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png"
+            },
+            {
+                "source": [178, 78, 202, 102],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png"
+            },
+            {
+                "source": [152, 104, 176, 128],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png"
+            },
+            {
+                "source": [178, 104, 203, 128],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png"
+            },
+            {
+                "source": [152, 130, 176, 154],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png"
+            },
+            {
+                "source": [178, 130, 202, 154],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png"
+            },
+            {
+                "source": [152, 156, 176, 180],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png"
+            },
+            {
+                "source": [178, 156, 202, 180],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png"
+            },
+            {
+                "source": [152, 41, 178, 57],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled.png"
+            },
+            {
+                "source": [180, 41, 206, 57],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled.png"
+            },
+            {
+                "source": [152, 60, 178, 75],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png"
+            },
+            {
+                "source": [180, 59, 206, 75],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png"
+            },
+            {
+                "source": [152, 182, 178, 198],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png"
+            },
+            {
+                "source": [180, 182, 206, 198],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png"
+            },
+            {
+                "source": [152, 200, 178, 216],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png"
+            },
+            {
+                "source": [180, 200, 206, 216],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png"
+            },
+            {
+                "source": [153, 2, 183, 28],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/tab.png"
+            },
+            {
+                "source": [188, 2, 223, 28],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/tab_selected.png"
+            },
+            {
+                "source": [82, 208, 114, 240],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png"
+            },
+            {
+                "source": [29, 206, 54, 231],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/slot_craftable.png"
+            },
+            {
+                "source": [29, 231, 54, 256],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png"
+            },
+            {
+                "source": [54, 206, 79, 231],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png"
+            },
+            {
+                "source": [54, 231, 79, 256],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png"
+            },
+            {
+                "source": [1, 208, 13, 225],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/page_forward.png"
+            },
+            {
+                "source": [14, 208, 26, 225],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/page_backward.png"
+            },
+            {
+                "source": [1, 226, 13, 243],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png"
+            },
+            {
+                "source": [14, 226, 26, 243],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/recipe_button.png": [
+            {
+                "source": [0, 0, 20, 18],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/button.png"
+            },
+            {
+                "source": [0, 19, 20, 37],
+                "target": "assets/minecraft/textures/gui/sprites/recipe_book/button_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/book.png": [
+            {
+                "source": [0, 192, 23, 205],
+                "target": "assets/minecraft/textures/gui/sprites/widget/page_forward.png"
+            },
+            {
+                "source": [23, 192, 46, 205],
+                "target": "assets/minecraft/textures/gui/sprites/widget/page_forward_highlighted.png"
+            },
+            {
+                "source": [0, 205, 23, 218],
+                "target": "assets/minecraft/textures/gui/sprites/widget/page_backward.png"
+            },
+            {
+                "source": [23, 205, 46, 218],
+                "target": "assets/minecraft/textures/gui/sprites/widget/page_backward_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/slider.png": [
+            {
+                "source": [0, 0, 200, 20],
+                "target": "assets/minecraft/textures/gui/sprites/widget/slider.png"
+            },
+            {
+                "source": [0, 20, 200, 40],
+                "target": "assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/widgets.png": [
+            {
+                "source": [0, 46, 200, 66],
+                "target": "assets/minecraft/textures/gui/sprites/widget/button_disabled.png"
+            },
+            {
+                "source": [0, 66, 200, 86],
+                "target": "assets/minecraft/textures/gui/sprites/widget/button.png"
+            },
+            {
+                "source": [0, 86, 200, 106],
+                "target": "assets/minecraft/textures/gui/sprites/widget/button_highlighted.png"
+            },
+            {
+                "source": [0, 146, 20, 166],
+                "target": "assets/minecraft/textures/gui/sprites/widget/locked_button.png"
+            },
+            {
+                "source": [20, 146, 40, 166],
+                "target": "assets/minecraft/textures/gui/sprites/widget/unlocked_button.png"
+            },
+            {
+                "source": [0, 166, 20, 186],
+                "target": "assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png"
+            },
+            {
+                "source": [20, 166, 40, 186],
+                "target": "assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png"
+            },
+            {
+                "source": [0, 186, 20, 206],
+                "target": "assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png"
+            },
+            {
+                "source": [20, 186, 40, 206],
+                "target": "assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png"
+            },
+            {
+                "source": [0, 0, 182, 22],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar.png"
+            },
+            {
+                "source": [0, 22, 24, 46],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png"
+            },
+            {
+                "source": [24, 22, 53, 46],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png"
+            },
+            {
+                "source": [53, 22, 81, 45],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png"
+            },
+            {
+                "source": [198, 22, 206, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/1.png"
+            },
+            {
+                "source": [206, 22, 214, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/2.png"
+            },
+            {
+                "source": [214, 22, 222, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/3.png"
+            },
+            {
+                "source": [222, 22, 230, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/4.png"
+            },
+            {
+                "source": [230, 22, 238, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/5.png"
+            },
+            {
+                "source": [238, 22, 246, 30],
+                "target": "assets/minecraft/textures/gui/sprites/notification/more.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/tab_button.png": [
+            {
+                "source": [0, 0, 130, 24],
+                "target": "assets/minecraft/textures/gui/sprites/widget/tab_selected.png"
+            },
+            {
+                "source": [0, 24, 130, 48],
+                "target": "assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png"
+            },
+            {
+                "source": [0, 48, 130, 72],
+                "target": "assets/minecraft/textures/gui/sprites/widget/tab.png"
+            },
+            {
+                "source": [0, 72, 130, 96],
+                "target": "assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/checkbox.png": [
+            {
+                "source": [0, 0, 20, 20],
+                "target": "assets/minecraft/textures/gui/sprites/widget/checkbox.png"
+            },
+            {
+                "source": [20, 0, 40, 20],
+                "target": "assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png"
+            },
+            {
+                "source": [0, 20, 20, 40],
+                "target": "assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png"
+            },
+            {
+                "source": [20, 20, 40, 40],
+                "target": "assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/bars.png": [
+            {
+                "source": [0, 0, 182, 5],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/pink_background.png"
+            },
+            {
+                "source": [0, 5, 182, 10],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/pink_progress.png"
+            },
+            {
+                "source": [0, 10, 182, 15],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/blue_background.png"
+            },
+            {
+                "source": [0, 15, 182, 20],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/blue_progress.png"
+            },
+            {
+                "source": [0, 20, 182, 25],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/red_background.png"
+            },
+            {
+                "source": [0, 25, 182, 30],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/red_progress.png"
+            },
+            {
+                "source": [0, 30, 182, 35],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/green_background.png"
+            },
+            {
+                "source": [0, 35, 182, 40],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/green_progress.png"
+            },
+            {
+                "source": [0, 40, 182, 45],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/yellow_background.png"
+            },
+            {
+                "source": [0, 45, 182, 50],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/yellow_progress.png"
+            },
+            {
+                "source": [0, 50, 182, 55],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/purple_background.png"
+            },
+            {
+                "source": [0, 55, 182, 60],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/purple_progress.png"
+            },
+            {
+                "source": [0, 60, 182, 65],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/white_background.png"
+            },
+            {
+                "source": [0, 65, 182, 70],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/white_progress.png"
+            },
+            {
+                "source": [0, 80, 182, 85],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_6_background.png"
+            },
+            {
+                "source": [0, 85, 182, 90],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_6_progress.png"
+            },
+            {
+                "source": [0, 90, 182, 95],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_10_background.png"
+            },
+            {
+                "source": [0, 95, 182, 100],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_10_progress.png"
+            },
+            {
+                "source": [0, 100, 182, 105],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_12_background.png"
+            },
+            {
+                "source": [0, 105, 182, 110],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_12_progress.png"
+            },
+            {
+                "source": [0, 110, 182, 115],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_20_background.png"
+            },
+            {
+                "source": [0, 115, 182, 120],
+                "target": "assets/minecraft/textures/gui/sprites/boss_bar/notched_20_progress.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/social_interactions.png": [
+            {
+                "source": [1, 1, 237, 35],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/background.png"
+            },
+            {
+                "source": [0, 38, 20, 58],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/mute_button.png"
+            },
+            {
+                "source": [20, 38, 40, 58],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/unmute_button.png"
+            },
+            {
+                "source": [0, 58, 20, 78],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/mute_button_highlighted.png"
+            },
+            {
+                "source": [20, 58, 40, 78],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/unmute_button_highlighted.png"
+            },
+            {
+                "source": [243, 1, 255, 13],
+                "target": "assets/minecraft/textures/gui/sprites/social_interactions/icon/search.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/report_button.png": [
+            {
+                "source": [0, 0, 20, 20],
+                "target": "assets/minecraft/textures/gui/sprites/report_button.png"
+            },
+            {
+                "source": [0, 20, 20, 40],
+                "target": "assets/minecraft/textures/gui/sprites/report_button_highlighted.png"
+            },
+            {
+                "source": [0, 40, 20, 60],
+                "target": "assets/minecraft/textures/gui/sprites/report_button_disabled.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/icons.png": [
+            {
+                "source": [0, 0, 15, 15],
+                "target": "assets/minecraft/textures/gui/sprites/hud/crosshair.png"
+            },
+            {
+                "source": [16, 18, 25, 27],
+                "target": "assets/minecraft/textures/gui/sprites/hud/air.png"
+            },
+            {
+                "source": [25, 18, 34, 27],
+                "target": "assets/minecraft/textures/gui/sprites/hud/air_bursting.png"
+            },
+            {
+                "source": [16, 9, 25, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/armor_empty.png"
+            },
+            {
+                "source": [25, 9, 34, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/armor_half.png"
+            },
+            {
+                "source": [34, 9, 43, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/armor_full.png"
+            },
+            {
+                "source": [36, 94, 52, 98],
+                "target": "assets/minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_background.png"
+            },
+            {
+                "source": [52, 94, 68, 98],
+                "target": "assets/minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_progress.png"
+            },
+            {
+                "source": [69, 94, 84, 110],
+                "target": "assets/minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_full.png"
+            },
+            {
+                "source": [0, 64, 182, 69],
+                "target": "assets/minecraft/textures/gui/sprites/hud/experience_bar_background.png"
+            },
+            {
+                "source": [0, 69, 182, 74],
+                "target": "assets/minecraft/textures/gui/sprites/hud/experience_bar_progress.png"
+            },
+            {
+                "source": [0, 74, 182, 79],
+                "target": "assets/minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png"
+            },
+            {
+                "source": [0, 84, 182, 89],
+                "target": "assets/minecraft/textures/gui/sprites/hud/jump_bar_background.png"
+            },
+            {
+                "source": [0, 89, 182, 94],
+                "target": "assets/minecraft/textures/gui/sprites/hud/jump_bar_progress.png"
+            },
+            {
+                "source": [16, 27, 25, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_empty.png"
+            },
+            {
+                "source": [52, 27, 61, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_full.png"
+            },
+            {
+                "source": [61, 27, 70, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_half.png"
+            },
+            {
+                "source": [88, 27, 97, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_full_hunger.png"
+            },
+            {
+                "source": [97, 27, 106, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_half_hunger.png"
+            },
+            {
+                "source": [133, 27, 142, 36],
+                "target": "assets/minecraft/textures/gui/sprites/hud/food_empty_hunger.png"
+            },
+            {
+                "source": [0, 94, 18, 112],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_background.png"
+            },
+            {
+                "source": [18, 94, 36, 112],
+                "target": "assets/minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_progress.png"
+            },
+            {
+                "source": [16, 0, 25, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/container.png"
+            },
+            {
+                "source": [25, 0, 34, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/container_blinking.png"
+            },
+            {
+                "source": [52, 0, 61, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/full.png"
+            },
+            {
+                "source": [61, 0, 70, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/half.png"
+            },
+            {
+                "source": [70, 0, 79, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/full_blinking.png"
+            },
+            {
+                "source": [79, 0, 88, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/half_blinking.png"
+            },
+            {
+                "source": [88, 0, 97, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full.png"
+            },
+            {
+                "source": [97, 0, 106, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half.png"
+            },
+            {
+                "source": [106, 0, 115, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_full_blinking.png"
+            },
+            {
+                "source": [115, 0, 124, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_half_blinking.png"
+            },
+            {
+                "source": [124, 0, 133, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_full.png"
+            },
+            {
+                "source": [133, 0, 142, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_half.png"
+            },
+            {
+                "source": [142, 0, 151, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_full_blinking.png"
+            },
+            {
+                "source": [151, 0, 160, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_half_blinking.png"
+            },
+            {
+                "source": [160, 0, 169, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full.png"
+            },
+            {
+                "source": [160, 0, 169, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_full_blinking.png"
+            },
+            {
+                "source": [169, 0, 178, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half.png"
+            },
+            {
+                "source": [169, 0, 178, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_half_blinking.png"
+            },
+            {
+                "source": [178, 0, 187, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_full.png"
+            },
+            {
+                "source": [178, 0, 187, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_full_blinking.png"
+            },
+            {
+                "source": [187, 0, 196, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_half.png"
+            },
+            {
+                "source": [187, 0, 196, 9],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_half_blinking.png"
+            },
+            {
+                "source": [52, 9, 61, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/vehicle_container.png"
+            },
+            {
+                "source": [88, 9, 97, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/vehicle_full.png"
+            },
+            {
+                "source": [97, 9, 106, 18],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/vehicle_half.png"
+            },
+            {
+                "source": [16, 45, 25, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore.png"
+            },
+            {
+                "source": [25, 45, 34, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/container_hardcore_blinking.png"
+            },
+            {
+                "source": [52, 45, 61, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full.png"
+            },
+            {
+                "source": [61, 45, 70, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half.png"
+            },
+            {
+                "source": [70, 45, 79, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/hardcore_full_blinking.png"
+            },
+            {
+                "source": [79, 45, 88, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/hardcore_half_blinking.png"
+            },
+            {
+                "source": [88, 45, 97, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full.png"
+            },
+            {
+                "source": [97, 45, 106, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half.png"
+            },
+            {
+                "source": [106, 45, 115, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png"
+            },
+            {
+                "source": [115, 45, 124, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png"
+            },
+            {
+                "source": [124, 45, 133, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full.png"
+            },
+            {
+                "source": [133, 45, 142, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png"
+            },
+            {
+                "source": [142, 45, 151, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png"
+            },
+            {
+                "source": [151, 45, 160, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half_blinking.png"
+            },
+            {
+                "source": [160, 45, 169, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full.png"
+            },
+            {
+                "source": [160, 45, 169, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png"
+            },
+            {
+                "source": [169, 45, 178, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half.png"
+            },
+            {
+                "source": [169, 45, 178, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png"
+            },
+            {
+                "source": [178, 45, 187, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
+            },
+            {
+                "source": [178, 45, 187, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full_blinking.png"
+            },
+            {
+                "source": [187, 45, 196, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half.png"
+            },
+            {
+                "source": [187, 45, 196, 54],
+                "target": "assets/minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half_blinking.png"
+            },
+            {
+                "source": [0, 15, 10, 23],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_5.png"
+            },
+            {
+                "source": [0, 23, 10, 31],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_4.png"
+            },
+            {
+                "source": [0, 31, 10, 39],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_3.png"
+            },
+            {
+                "source": [0, 39, 10, 47],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_2.png"
+            },
+            {
+                "source": [0, 47, 10, 55],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_1.png"
+            },
+            {
+                "source": [0, 55, 10, 63],
+                "target": "assets/minecraft/textures/gui/sprites/icon/ping_unknown.png"
+            },
+            {
+                "source": [0, 176, 10, 184],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/ping_5.png"
+            },
+            {
+                "source": [0, 184, 10, 192],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/ping_4.png"
+            },
+            {
+                "source": [0, 192, 10, 200],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/ping_3.png"
+            },
+            {
+                "source": [0, 200, 10, 208],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/ping_2.png"
+            },
+            {
+                "source": [0, 208, 10, 216],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/ping_1.png"
+            },
+            {
+                "source": [0, 216, 10, 224],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/incompatible.png"
+            },
+            {
+                "source": [0, 216, 10, 224],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/unreachable.png"
+            },
+            {
+                "source": [10, 176, 20, 184],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/pinging_1.png"
+            },
+            {
+                "source": [10, 184, 20, 192],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/pinging_2.png"
+            },
+            {
+                "source": [10, 192, 20, 200],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/pinging_3.png"
+            },
+            {
+                "source": [10, 200, 20, 208],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/pinging_4.png"
+            },
+            {
+                "source": [10, 208, 20, 216],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/pinging_5.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/toasts.png": [
+            {
+                "source": [0, 0, 160, 32],
+                "target": "assets/minecraft/textures/gui/sprites/toast/advancement.png"
+            },
+            {
+                "source": [0, 32, 160, 64],
+                "target": "assets/minecraft/textures/gui/sprites/toast/recipe.png"
+            },
+            {
+                "source": [0, 64, 160, 96],
+                "target": "assets/minecraft/textures/gui/sprites/toast/system.png"
+            },
+            {
+                "source": [0, 96, 160, 128],
+                "target": "assets/minecraft/textures/gui/sprites/toast/tutorial.png"
+            },
+            {
+                "source": [176, 0, 196, 20],
+                "target": "assets/minecraft/textures/gui/sprites/toast/movement_keys.png"
+            },
+            {
+                "source": [196, 0, 216, 20],
+                "target": "assets/minecraft/textures/gui/sprites/toast/mouse.png"
+            },
+            {
+                "source": [216, 0, 236, 20],
+                "target": "assets/minecraft/textures/gui/sprites/toast/tree.png"
+            },
+            {
+                "source": [176, 20, 196, 40],
+                "target": "assets/minecraft/textures/gui/sprites/toast/recipe_book.png"
+            },
+            {
+                "source": [196, 20, 216, 40],
+                "target": "assets/minecraft/textures/gui/sprites/toast/wooden_planks.png"
+            },
+            {
+                "source": [216, 20, 236, 40],
+                "target": "assets/minecraft/textures/gui/sprites/toast/social_interactions.png"
+            },
+            {
+                "source": [236, 20, 256, 40],
+                "target": "assets/minecraft/textures/gui/sprites/toast/right_click.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/world_selection.png": [
+            {
+                "source": [0, 0, 32, 32],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/join.png"
+            },
+            {
+                "source": [32, 0, 64, 32],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/marked_join.png"
+            },
+            {
+                "source": [0, 32, 32, 64],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/join_highlighted.png"
+            },
+            {
+                "source": [32, 32, 64, 64],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/marked_join_highlighted.png"
+            },
+            {
+                "source": [64, 0, 96, 32],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/warning.png"
+            },
+            {
+                "source": [96, 0, 128, 32],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/error.png"
+            },
+            {
+                "source": [64, 32, 96, 64],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/warning_highlighted.png"
+            },
+            {
+                "source": [96, 32, 128, 64],
+                "target": "assets/minecraft/textures/gui/sprites/world_list/error_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/checkmark.png": [
+            {
+                "source": [0, 0, 9, 8],
+                "target": "assets/minecraft/textures/gui/sprites/icon/checkmark.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/info_icon.png": [
+            {
+                "source": [0, 0, 20, 20],
+                "target": "assets/minecraft/textures/gui/sprites/icon/info_icon.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/chat_tags.png": [
+            {
+                "source": [0, 0, 9, 9],
+                "target": "assets/minecraft/textures/gui/sprites/icon/chat_tags.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/unseen_notification.png": [
+            {
+                "source": [0, 0, 10, 10],
+                "target": "assets/minecraft/textures/gui/sprites/icon/unseen_notification.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/advancements/widgets.png": [
+            {
+                "source": [0, 0, 200, 26],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/box_obtained.png"
+            },
+            {
+                "source": [0, 26, 200, 52],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/box_unobtained.png"
+            },
+            {
+                "source": [0, 52, 200, 78],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/title_box.png"
+            },
+            {
+                "source": [0, 128, 26, 254],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/task_frame_obtained.png"
+            },
+            {
+                "source": [26, 128, 52, 154],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/challenge_frame_obtained.png"
+            },
+            {
+                "source": [52, 128, 78, 154],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/goal_frame_obtained.png"
+            },
+            {
+                "source": [0, 154, 26, 180],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/task_frame_unobtained.png"
+            },
+            {
+                "source": [26, 154, 52, 180],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/challenge_frame_unobtained.png"
+            },
+            {
+                "source": [52, 154, 78, 180],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/goal_frame_unobtained.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/advancements/tabs.png": [
+            {
+                "source": [0, 0, 28, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_left.png"
+            },
+            {
+                "source": [28, 0, 56, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_middle.png"
+            },
+            {
+                "source": [56, 0, 84, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_right.png"
+            },
+            {
+                "source": [84, 0, 112, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_left.png"
+            },
+            {
+                "source": [112, 0, 140, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_middle.png"
+            },
+            {
+                "source": [140, 0, 168, 32],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_right.png"
+            },
+            {
+                "source": [0, 32, 28, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_left_selected.png"
+            },
+            {
+                "source": [28, 32, 56, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_middle_selected.png"
+            },
+            {
+                "source": [56, 32, 84, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_above_right_selected.png"
+            },
+            {
+                "source": [84, 32, 112, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_left_selected.png"
+            },
+            {
+                "source": [112, 32, 140, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_middle_selected.png"
+            },
+            {
+                "source": [140, 32, 168, 64],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_below_right_selected.png"
+            },
+            {
+                "source": [0, 63, 32, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_bottom.png"
+            },
+            {
+                "source": [32, 64, 64, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_middle.png"
+            },
+            {
+                "source": [64, 64, 96, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_top.png"
+            },
+            {
+                "source": [96, 64, 128, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_bottom.png"
+            },
+            {
+                "source": [128, 64, 161, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_middle.png"
+            },
+            {
+                "source": [106, 64, 192, 92],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_top.png"
+            },
+            {
+                "source": [0, 92, 32, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_bottom_selected.png"
+            },
+            {
+                "source": [32, 92, 64, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_middle_selected.png"
+            },
+            {
+                "source": [64, 92, 96, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_left_top_selected.png"
+            },
+            {
+                "source": [96, 92, 128, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_bottom_selected.png"
+            },
+            {
+                "source": [128, 92, 160, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_middle_selected.png"
+            },
+            {
+                "source": [160, 92, 192, 120],
+                "target": "assets/minecraft/textures/gui/sprites/advancements/tab_right_top_selected.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/creative_inventory/tabs.png": [
+            {
+                "source": [0, 0, 26, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png"
+            },
+            {
+                "source": [26, 0, 52, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png"
+            },
+            {
+                "source": [52, 0, 78, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png"
+            },
+            {
+                "source": [78, 0, 104, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png"
+            },
+            {
+                "source": [104, 0, 130, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png"
+            },
+            {
+                "source": [130, 0, 156, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png"
+            },
+            {
+                "source": [156, 0, 182, 32],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png"
+            },
+            {
+                "source": [0, 32, 26, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png"
+            },
+            {
+                "source": [26, 32, 52, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png"
+            },
+            {
+                "source": [52, 32, 78, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png"
+            },
+            {
+                "source": [78, 32, 104, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png"
+            },
+            {
+                "source": [104, 32, 130, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png"
+            },
+            {
+                "source": [130, 32, 156, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png"
+            },
+            {
+                "source": [156, 32, 182, 64],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png"
+            },
+            {
+                "source": [0, 64, 26, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png"
+            },
+            {
+                "source": [26, 64, 52, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png"
+            },
+            {
+                "source": [52, 64, 78, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png"
+            },
+            {
+                "source": [78, 64, 104, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png"
+            },
+            {
+                "source": [104, 64, 130, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png"
+            },
+            {
+                "source": [130, 64, 156, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png"
+            },
+            {
+                "source": [156, 64, 182, 96],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png"
+            },
+            {
+                "source": [0, 96, 26, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png"
+            },
+            {
+                "source": [26, 96, 52, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png"
+            },
+            {
+                "source": [52, 96, 78, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png"
+            },
+            {
+                "source": [78, 96, 104, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png"
+            },
+            {
+                "source": [104, 96, 130, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png"
+            },
+            {
+                "source": [130, 96, 156, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png"
+            },
+            {
+                "source": [156, 96, 182, 128],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png"
+            },
+            {
+                "source": [232, 0, 244, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller.png"
+            },
+            {
+                "source": [244, 0, 256, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/stats_icons.png": [
+            {
+                "source": [0, 18, 18, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/header.png"
+            },
+            {
+                "source": [18, 0, 36, 18],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/sort_down.png"
+            },
+            {
+                "source": [36, 0, 54, 18],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/sort_up.png"
+            },
+            {
+                "source": [18, 18, 36, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/item_crafted.png"
+            },
+            {
+                "source": [36, 18, 54, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/item_used.png"
+            },
+            {
+                "source": [54, 18, 72, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/block_mined.png"
+            },
+            {
+                "source": [72, 18, 90, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/item_broken.png"
+            },
+            {
+                "source": [90, 18, 108, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/item_picked_up.png"
+            },
+            {
+                "source": [108, 18, 126, 36],
+                "target": "assets/minecraft/textures/gui/sprites/statistics/item_dropped.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/spectator_widgets.png": [
+            {
+                "source": [0, 0, 16, 16],
+                "target": "assets/minecraft/textures/gui/sprites/spectator/teleport_to_player.png"
+            },
+            {
+                "source": [16, 0, 32, 16],
+                "target": "assets/minecraft/textures/gui/sprites/spectator/teleport_to_team.png"
+            },
+            {
+                "source": [128, 0, 144, 16],
+                "target": "assets/minecraft/textures/gui/sprites/spectator/close.png"
+            },
+            {
+                "source": [144, 0, 160, 16],
+                "target": "assets/minecraft/textures/gui/sprites/spectator/scroll_left.png"
+            },
+            {
+                "source": [160, 0, 176, 16],
+                "target": "assets/minecraft/textures/gui/sprites/spectator/scroll_right.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/server_selection.png": [
+            {
+                "source": [0, 0, 32, 32],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/join.png"
+            },
+            {
+                "source": [64, 0, 96, 32],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/move_down.png"
+            },
+            {
+                "source": [96, 0, 128, 32],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/move_up.png"
+            },
+            {
+                "source": [0, 32, 32, 64],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/join_highlighted.png"
+            },
+            {
+                "source": [64, 32, 96, 64],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/move_down_highlighted.png"
+            },
+            {
+                "source": [96, 32, 128, 64],
+                "target": "assets/minecraft/textures/gui/sprites/server_list/move_up_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/resource_packs.png": [
+            {
+                "source": [0, 0, 32, 32],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/select.png"
+            },
+            {
+                "source": [32, 0, 64, 32],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/unselect.png"
+            },
+            {
+                "source": [64, 0, 96, 32],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/move_down.png"
+            },
+            {
+                "source": [96, 0, 128, 32],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/move_up.png"
+            },
+            {
+                "source": [0, 32, 32, 64],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/select_highlighted.png"
+            },
+            {
+                "source": [32, 32, 64, 64],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/unselect_highlighted.png"
+            },
+            {
+                "source": [64, 32, 96, 64],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/move_down_highlighted.png"
+            },
+            {
+                "source": [96, 32, 128, 64],
+                "target": "assets/minecraft/textures/gui/sprites/transferable_list/move_up_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/anvil.png": [
+            {
+                "source": [0, 166, 110, 182],
+                "target": "assets/minecraft/textures/gui/sprites/container/anvil/text_field.png"
+            },
+            {
+                "source": [0, 182, 110, 198],
+                "target": "assets/minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png"
+            },
+            {
+                "source": [176, 0, 204, 21],
+                "target": "assets/minecraft/textures/gui/sprites/container/anvil/error.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/beacon.png": [
+            {
+                "source": [0, 219, 22, 241],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/button.png"
+            },
+            {
+                "source": [22, 219, 44, 241],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/button_selected.png"
+            },
+            {
+                "source": [44, 219, 66, 241],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/button_disabled.png"
+            },
+            {
+                "source": [66, 219, 88, 241],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/button_highlighted.png"
+            },
+            {
+                "source": [90, 220, 108, 238],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/confirm.png"
+            },
+            {
+                "source": [112, 220, 130, 238],
+                "target": "assets/minecraft/textures/gui/sprites/container/beacon/cancel.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/blast_furnace.png": [
+            {
+                "source": [176, 0, 190, 14],
+                "target": "assets/minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png"
+            },
+            {
+                "source": [176, 14, 200, 30],
+                "target": "assets/minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/brewing_stand.png": [
+            {
+                "source": [176, 0, 185, 28],
+                "target": "assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png"
+            },
+            {
+                "source": [185, 0, 197, 29],
+                "target": "assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png"
+            },
+            {
+                "source": [177, 29, 194, 33],
+                "target": "assets/minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/bundle.png": [
+            {
+                "source": [0, 0, 18, 18],
+                "target": "assets/minecraft/textures/gui/sprites/container/bundle/slot.png"
+            },
+            {
+                "source": [0, 40, 18, 58],
+                "target": "assets/minecraft/textures/gui/sprites/container/bundle/blocked_slot.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/cartography_table.png": [
+            {
+                "source": [176, 0, 242, 66],
+                "target": "assets/minecraft/textures/gui/sprites/container/cartography_table/map.png"
+            },
+            {
+                "source": [176, 66, 242, 132],
+                "target": "assets/minecraft/textures/gui/sprites/container/cartography_table/scaled_map.png"
+            },
+            {
+                "source": [176, 132, 226, 198],
+                "target": "assets/minecraft/textures/gui/sprites/container/cartography_table/duplicated_map.png"
+            },
+            {
+                "source": [226, 132, 254, 153],
+                "target": "assets/minecraft/textures/gui/sprites/container/cartography_table/error.png"
+            },
+            {
+                "source": [52, 214, 62, 228],
+                "target": "assets/minecraft/textures/gui/sprites/container/cartography_table/locked.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/enchanting_table.png": [
+            {
+                "source": [0, 166, 108, 185],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png"
+            },
+            {
+                "source": [0, 185, 108, 204],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png"
+            },
+            {
+                "source": [0, 204, 108, 223],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png"
+            },
+            {
+                "source": [0, 223, 16, 239],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1.png"
+            },
+            {
+                "source": [16, 223, 32, 239],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2.png"
+            },
+            {
+                "source": [32, 223, 48, 239],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3.png"
+            },
+            {
+                "source": [0, 239, 16, 255],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1_disabled.png"
+            },
+            {
+                "source": [16, 239, 32, 255],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2_disabled.png"
+            },
+            {
+                "source": [32, 239, 48, 255],
+                "target": "assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3_disabled.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/furnace.png": [
+            {
+                "source": [176, 0, 190, 14],
+                "target": "assets/minecraft/textures/gui/sprites/container/furnace/lit_progress.png"
+            },
+            {
+                "source": [176, 14, 200, 30],
+                "target": "assets/minecraft/textures/gui/sprites/container/furnace/burn_progress.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/grindstone.png": [
+            {
+                "source": [176, 0, 204, 21],
+                "target": "assets/minecraft/textures/gui/sprites/container/grindstone/error.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/horse.png": [
+            {
+                "source": [0, 166, 90, 220],
+                "target": "assets/minecraft/textures/gui/sprites/container/horse/chest_slots.png"
+            },
+            {
+                "source": [0, 221, 18, 238],
+                "target": "assets/minecraft/textures/gui/sprites/container/horse/armor_slot.png"
+            },
+            {
+                "source": [18, 221, 36, 238],
+                "target": "assets/minecraft/textures/gui/sprites/container/horse/saddle_slot.png"
+            },
+            {
+                "source": [36, 221, 54, 238],
+                "target": "assets/minecraft/textures/gui/sprites/container/horse/llama_armor_slot.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/inventory.png": [
+            {
+                "source": [0, 166, 120, 198],
+                "target": "assets/minecraft/textures/gui/sprites/container/inventory/effect_background_large.png"
+            },
+            {
+                "source": [0, 198, 32, 230],
+                "target": "assets/minecraft/textures/gui/sprites/container/inventory/effect_background_small.png"
+            },
+            {
+                "source": [141, 166, 165, 190],
+                "target": "assets/minecraft/textures/gui/sprites/hud/effect_background.png"
+            },
+            {
+                "source": [165, 166, 189, 190],
+                "target": "assets/minecraft/textures/gui/sprites/hud/effect_background_ambient.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/loom.png": [
+            {
+                "source": [176, 0, 192, 16],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/banner_slot.png"
+            },
+            {
+                "source": [192, 0, 208, 16],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/dye_slot.png"
+            },
+            {
+                "source": [208, 0, 224, 16],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/pattern_slot.png"
+            },
+            {
+                "source": [232, 0, 244, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/scroller.png"
+            },
+            {
+                "source": [244, 0, 256, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/scroller_disabled.png"
+            },
+            {
+                "source": [0, 166, 14, 180],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/pattern.png"
+            },
+            {
+                "source": [0, 180, 14, 194],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/pattern_selected.png"
+            },
+            {
+                "source": [0, 194, 14, 208],
+                "target": "assets/minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/smithing.png": [
+            {
+                "source": [176, 0, 204, 21],
+                "target": "assets/minecraft/textures/gui/sprites/container/smithing/error.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/smoker.png": [
+            {
+                "source": [176, 0, 190, 14],
+                "target": "assets/minecraft/textures/gui/sprites/container/smoker/lit_progress.png"
+            },
+            {
+                "source": [176, 14, 200, 30],
+                "target": "assets/minecraft/textures/gui/sprites/container/smoker/burn_progress.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/stonecutter.png": [
+            {
+                "source": [176, 0, 188, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/stonecutter/scroller.png"
+            },
+            {
+                "source": [188, 0, 200, 15],
+                "target": "assets/minecraft/textures/gui/sprites/container/stonecutter/scroller_disabled.png"
+            },
+            {
+                "source": [0, 166, 16, 184],
+                "target": "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe.png"
+            },
+            {
+                "source": [0, 184, 16, 202],
+                "target": "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_selected.png"
+            },
+            {
+                "source": [0, 202, 16, 220],
+                "target": "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_highlighted.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/villager2.png": [
+            {
+                "source": [312, 0, 340, 21],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/out_of_stock.png"
+            },
+            {
+                "source": [0, 176, 9, 178],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png"
+            },
+            {
+                "source": [15, 171, 25, 180],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/trade_arrow.png"
+            },
+            {
+                "source": [25, 171, 35, 180],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png"
+            },
+            {
+                "source": [0, 181, 102, 186],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_result.png"
+            },
+            {
+                "source": [0, 186, 102, 191],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_background.png"
+            },
+            {
+                "source": [0, 191, 102, 196],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_current.png"
+            },
+            {
+                "source": [0, 199, 6, 226],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/scroller.png"
+            },
+            {
+                "source": [6, 199, 12, 226],
+                "target": "assets/minecraft/textures/gui/sprites/container/villager/scroller_disabled.png"
+            }
+        ],
+        "assets/minecraft/textures/gui/container/gamemode_switcher.png": [
+            {
+                "source": [0, 75, 26, 101],
+                "target": "assets/minecraft/textures/gui/sprites/gamemode_switcher/selection.png"
+            },
+            {
+                "source": [26, 75, 52, 101],
+                "target": "assets/minecraft/textures/gui/sprites/gamemode_switcher/slot.png"
+            }
+        ]
+    },
+    "merge_operations": {},
+    "transparency_operations": {
+        "assets/minecraft/textures/gui/recipe_book.png": {
+            "keep_area": [0, 0, 148, 167],
+            "target": "assets/minecraft/textures/gui/recipe_book.png"
+        },
+        "assets/minecraft/textures/gui/book.png": {
+            "keep_area": [0, 0, 185, 181],
+            "target": "assets/minecraft/textures/gui/book.png"
+        },
+        "assets/minecraft/textures/gui/container/anvil.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/anvil.png"
+        },
+        "assets/minecraft/textures/gui/container/beacon.png": {
+            "keep_area": [0, 0, 229, 218],
+            "target": "assets/minecraft/textures/gui/container/beacon.png"
+        },
+        "assets/minecraft/textures/gui/container/blast_furnace.png": {
+            "keep_area": [0, 0, 175, 65],
+            "target": "assets/minecraft/textures/gui/container/blast_furnace.png"
+        },
+        "assets/minecraft/textures/gui/container/brewing_stand.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/brewing_stand.png"
+        },
+        "assets/minecraft/textures/gui/container/cartography_table.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/cartography_table.png"
+        },
+        "assets/minecraft/textures/gui/container/crafting_table.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/crafting_table.png"
+        },
+        "assets/minecraft/textures/gui/container/enchanting_table.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/enchanting_table.png"
+        },
+        "assets/minecraft/textures/gui/container/furnace.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/furnace.png"
+        },
+        "assets/minecraft/textures/gui/container/grindstone.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/grindstone.png"
+        },
+        "assets/minecraft/textures/gui/container/horse.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/horse.png"
+        },
+        "assets/minecraft/textures/gui/container/inventory.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/inventory.png"
+        },
+        "assets/minecraft/textures/gui/container/loom.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/loom.png"
+        },
+        "assets/minecraft/textures/gui/container/smithing.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/smithing.png"
+        },
+        "assets/minecraft/textures/gui/container/smoker.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/smoker.png"
+        },
+        "assets/minecraft/textures/gui/container/stonecutter.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/stonecutter.png"
+        },
+        "assets/minecraft/textures/gui/container/villager2.png": {
+            "keep_area": [0, 0, 275, 165],
+            "target": "assets/minecraft/textures/gui/container/villager2.png"
+        },
+        "assets/minecraft/textures/gui/container/gamemode_switcher.png": {
+            "keep_area": [0, 0, 124, 74],
+            "target": "assets/minecraft/textures/gui/container/gamemode_switcher.png"
+        },
+        "assets/minecraft/textures/gui/container/legacy_smithing.png": {
+            "keep_area": [0, 0, 175, 165],
+            "target": "assets/minecraft/textures/gui/container/legacy_smithing.png"
+        }
+    },
+    "removed_files": [
+        "assets/minecraft/textures/gui/recipe_button.png",
+        "assets/minecraft/textures/gui/slider.png",
+        "assets/minecraft/textures/gui/widgets.png",
+        "assets/minecraft/textures/gui/tab_button.png",
+        "assets/minecraft/textures/gui/checkbox.png",
+        "assets/minecraft/textures/gui/bars.png",
+        "assets/minecraft/textures/gui/social_interactions.png",
+        "assets/minecraft/textures/gui/report_button.png",
+        "assets/minecraft/textures/gui/icons.png",
+        "assets/minecraft/textures/gui/toasts.png",
+        "assets/minecraft/textures/gui/world_selection.png",
+        "assets/minecraft/textures/gui/checkmark.png",
+        "assets/minecraft/textures/gui/info_icon.png",
+        "assets/minecraft/textures/gui/chat_tags.png",
+        "assets/minecraft/textures/gui/unseen_notification.png",
+        "assets/minecraft/textures/gui/advancements/widgets.png",
+        "assets/minecraft/textures/gui/advancements/tabs.png",
+        "assets/minecraft/textures/gui/container/creative_inventory/tabs.png",
+        "assets/minecraft/textures/gui/container/stats_icons.png",
+        "assets/minecraft/textures/gui/spectator_widgets.png",
+        "assets/minecraft/textures/gui/server_selection.png",
+        "assets/minecraft/textures/gui/resource_packs.png",
+        "assets/minecraft/textures/gui/container/bundle.png"
+    ]
+} 
