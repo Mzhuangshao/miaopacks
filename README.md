@@ -30,6 +30,8 @@
 pip install -r requirements.txt
 ```
 
+在编译环境下运行miaopacks.py或双击miaopacks.py运行
+
 ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ . * ꙳ ✦
 
 QQ 2027799108（个人）
