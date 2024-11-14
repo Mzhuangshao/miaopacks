@@ -18,5 +18,10 @@
 使用方式：
 在根目录
 ```python
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
+
+✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ . * ꙳ ✦ ⊹ . ⁺ ✦ ⊹ ꙳ ⁺ ‧ ⨯. ⁺ ✦ ⊹ . * ꙳ ✦
+
+QQ 2027799108（个人）
+邮箱 koimiaorii@outlook.com
