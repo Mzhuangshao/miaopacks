@@ -6,7 +6,7 @@
 
 导入材质包，点击转换，可以将高版本1.19材质包的GUI拆分成1.20的命名规则和形式
 
-视频链接：https://bilibili.com/video/BV1HfmQY3E5k
+安装教程/展示视频链接：https://bilibili.com/video/BV1HfmQY3E5k
 
 ![QQ_1731604836680](https://github.com/user-attachments/assets/d3300470-2f25-448f-a63a-7d6c53189af9)
 ![QQ_1731604852481](https://github.com/user-attachments/assets/28e0a1d6-eae8-4ddc-ae2d-f3aa3777b6ae)
