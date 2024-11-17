@@ -1638,6 +1638,7 @@
         "assets/minecraft/textures/gui/spectator_widgets.png",
         "assets/minecraft/textures/gui/server_selection.png",
         "assets/minecraft/textures/gui/resource_packs.png",
-        "assets/minecraft/textures/gui/container/bundle.png"
+        "assets/minecraft/textures/gui/container/bundle.png",
+        "assets/minecraft/textures/gui/title/minecraft.png"
     ]
 } 
