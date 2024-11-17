@@ -156,7 +156,7 @@ def get_version_operations(source_version, target_version):
     
     return operations
 
-def process_version_conversion(source_path, target_path, source_version, target_version):
+def process_version_conversion(source_path, target_path, source_version, target_version, scale_factor=1):
     """处理版本转换"""
     operations = get_version_operations(source_version, target_version)
     exclude_files = set()
@@ -165,7 +165,7 @@ def process_version_conversion(source_path, target_path, source_version, target_
         # 处理所有转换操作
         for operation in operations:
             config = operation['config']
-            version = operation['version']  # 获取当前操作的版本
+            version = operation['version']
             
             # 处理文件的添加和删除
             for file in config.get('removed_files', []):
@@ -177,7 +177,9 @@ def process_version_conversion(source_path, target_path, source_version, target_
                 if os.path.exists(source_file_path):
                     for split in splits:
                         target_file = os.path.join(target_path, split["target"])
-                        split_image(source_file_path, split["source"], target_file)
+                        # 调整裁剪坐标
+                        scaled_source = [x * scale_factor for x in split["source"]]
+                        split_image(source_file_path, scaled_source, target_file)
             
             # 处理合并操作
             for target_file, merges in config.get('merge_operations', {}).items():
@@ -186,7 +188,9 @@ def process_version_conversion(source_path, target_path, source_version, target_
                     source_file = merge["source"]
                     source_file_path = os.path.join(source_path, source_file)
                     if os.path.exists(source_file_path):
-                        merge_images(target_file_path, source_file_path, merge["position"])
+                        # 调整合并位置
+                        scaled_position = [x * scale_factor for x in merge["position"]]
+                        merge_images(target_file_path, source_file_path, scaled_position)
             
             # 处理透明度操作
             for source_file, trans_config in config.get('transparency_operations', {}).items():
@@ -195,7 +199,9 @@ def process_version_conversion(source_path, target_path, source_version, target_
                     target_file = os.path.join(target_path, trans_config["target"])
                     os.makedirs(os.path.dirname(target_file), exist_ok=True)
                     shutil.copy2(source_file_path, target_file)
-                    apply_transparency(target_file, trans_config["keep_area"])
+                    # 调整保留区域坐标 (先加1再乘以倍数再减1)
+                    scaled_keep_area = [(x + 1) * scale_factor - 1 for x in trans_config["keep_area"]]
+                    apply_transparency(target_file, scaled_keep_area)
             
             # 处理当前版本的 mcmeta 文件
             mcmeta_version_path = os.path.join(os.path.dirname(__file__), 'config', 'mcmetaFile', version)
@@ -793,7 +799,7 @@ def get_version_from_pack_format(pack_format):
 def open_convert_window():
     """打开转换窗口"""
     if not selected_label:
-        messagebox.showwarning("警告", "请先选择一个质包")
+        messagebox.showwarning("警告", "请先选择一个材质包")
         return
     
     # 获取选中文件的信息
@@ -899,11 +905,26 @@ def open_convert_window():
     button_frame = tk.Frame(convert_window)
     button_frame.pack(side=tk.BOTTOM, pady=10, padx=10, anchor='e')  # 使用 anchor='e' 使按钮靠右
     
+    # 创建分辨率选择框架
+    resolution_frame = tk.Frame(button_frame)
+    resolution_frame.pack(side=tk.LEFT, padx=(0, 10))
+    
+    tk.Label(resolution_frame, text="分辨率：").pack(side=tk.LEFT)
+    resolutions = ["16x", "32x", "64x", "128x", "256x", "512x", "1024x", "2048x"]
+    resolution_var = tk.StringVar(value="16x")
+    resolution_combo = ttk.Combobox(resolution_frame, values=resolutions, 
+                                  textvariable=resolution_var, width=8, state="readonly")
+    resolution_combo.pack(side=tk.LEFT)
+    
     # 确定按钮
     def on_confirm():
         """处理转换确认"""
         source = source_version.get()
         target = target_version.get()
+        
+        # 获取选择的分辨率倍数
+        resolution = resolution_var.get()
+        scale_factor = int(resolution.replace('x', '')) // 16
         
         # 获取材质包路径
         source_path = os.path.join(os.path.dirname(__file__), 'packagecache',
@@ -950,14 +971,14 @@ def open_convert_window():
             progress_bar['value'] = 40
             convert_window.update_idletasks()
             
-            # 处理版本转换
-            success, exclude_files = process_version_conversion(source_path, temp_dir, source, target)
+            # 处理版本转换，传入分辨率倍数
+            success, exclude_files = process_version_conversion(source_path, temp_dir, source, target, scale_factor)
             if success:
                 progress_bar['value'] = 80
                 convert_window.update_idletasks()
                 
                 # 询问保存位置
-                default_name = f"{os.path.splitext(os.path.basename(selected_label.full_path))[0]}_{target}.zip"
+                default_name = f"{os.path.splitext(os.path.basename(selected_label.full_path))[0]}_{target}_{resolution}.zip"
                 save_path = filedialog.asksaveasfilename(
                     defaultextension=".zip",
                     filetypes=[("Zip files", "*.zip")],
